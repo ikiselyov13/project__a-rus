@@ -3,6 +3,8 @@
     --light-pink: #F1E4E6;
     --dark-pink: #F16D7F;
     --sales-bkg-color: #716769;
+    --white: #FFFFFF;
+    --dark-grey: #5D5D5D;
 }
 
 body {
@@ -100,7 +102,7 @@ body {
 }
 
 .sales__item {
-    padding: 20px;
+    padding: 105px 0 105px 0;
     box-sizing: border-box;
     width: 360px;
     min-height: 260px;
@@ -124,4 +126,111 @@ body {
     width: 100%; 
     min-height: 180px;
     margin: 30px 0 0 0;
+}
+
+.sales__link {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sales__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--white)
+}
+
+.sales__title {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--dark-pink)
+}
+
+.catalog {
+    text-align: center;
+    margin: 97px 0 97px 0;
+}
+
+.catalog__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.catalog__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin: 6px 0 48px 0;
+}
+
+.catalog__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.catalog__item {
+    box-sizing: border-box;
+    width: 360px;
+    min-height: 580px;
+    margin: 0 0 30px 0;
+    text-align: left;
+}
+
+.catalog__item-link {
+text-decoration: none;
+}
+
+.catalog__item-title {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    
+    color: var(--black);
+    text-transform: uppercase;
+    margin: 25px 0 13px 0;
+}
+
+.catalog__item-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: var(--dark-grey);
+    margin: 0 0 18px 0;
+}
+
+.catalog__item-price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: var(--dark-pink);
+}
+
+.catalog__button {
+    width: 211px;
+    min-height: 47px;
+    border: solid 1px;
+    border-color: var(--dark-pink);
+    background: var(--white);
+}
+
+.catalog__button-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: var(--dark-pink);
 }
