@@ -1,0 +1,133 @@
+
+.catalog {
+    text-align: center;
+    margin: 97px 0 97px 0;
+}
+
+.catalog__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.catalog__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin: 6px 0 48px 0;
+}
+
+.catalog__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.catalog__item {
+    box-sizing: border-box;
+    width: 360px;
+    min-height: 580px;
+    margin: 0 0 30px 0;
+    text-align: left;
+
+}
+
+.img-wrp {
+    position: relative;
+}
+
+.catalog__item-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.catalog__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 138px;
+    height: 43px;
+    border: 1px solid $white;
+    background: none;
+    display: none;
+}
+
+.catalog__button-card {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: $white;
+}
+
+.catalog__item:hover .catalog__item-overlay {
+    display: block;
+}
+
+.catalog__item:hover .catalog__button {
+    display: flex;
+}
+
+.catalog__item-link {
+    text-decoration: none;
+}
+
+.catalog__item-title {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+
+    color: $black;
+    text-transform: uppercase;
+    margin: 25px 0 13px 0;
+}
+
+.catalog__item-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: $dark-grey;
+    margin: 0 0 18px 0;
+}
+
+.catalog__item-price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: $dark-pink;
+}
+
+.catalog__button-browse {
+    width: 211px;
+    min-height: 47px;
+    border: solid 1px;
+    background: $dark-pink;
+    border: none;
+}
+
+/*В этом классе не работают изменения*/
+.catalog__button-browse:hover {
+    border: solid 10px $black;
+}
+
+.catalog__button-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: $white;
+}

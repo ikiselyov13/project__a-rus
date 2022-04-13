@@ -1,0 +1,85 @@
+
+.sea {
+    min-height: 448px;
+    background-image: url(../img/sea.png);
+}
+
+.sea__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sea__item {
+    text-align: center;
+}
+
+.sea__smyle {
+    padding: 87px 0 0 0;
+    padding-bottom: 30px;
+}
+
+.sea__smyle-text {
+    width: 360px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: $black;
+}
+
+.sea__subscribe-title {
+    padding: 150px 0 0 0;
+    width: 557px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    color: $black;
+}
+
+.sea__subscribe-text {
+    width: 557px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: $black;
+}
+
+.sea__subscribe-send {
+    display: flex;
+    margin: 32px 0 0 120px;
+    height: 45px;
+}
+
+.sea__subscribe-send-text:hover,
+.sea__subscribe-send-button:hover {
+    border: 3px solid $black;
+}
+
+.sea__subscribe-send-text {
+    border-radius: 20px 0 0 20px;
+    width: 200px;
+    border: none;
+    background-color: $middle-grey;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+}
+
+.sea__subscribe-send-button {
+    border-radius: 0 20px 20px 0;
+    background: $dark-pink;
+    color: $white;
+    width: 100px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+}

@@ -1,0 +1,38 @@
+
+.delivery {
+    width: 100%;
+    min-height: 340px;
+    background-color: $black;
+}
+
+.delivery__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.delivery__item {
+    width: 360px;
+    margin: 103px 0 0 0;
+}
+
+.delivery__link {
+    text-decoration: none;
+}
+
+.delivery__item-title {
+    margin: 25px 0 16px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: $white;
+}
+
+.delivery__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: $white;
+}
