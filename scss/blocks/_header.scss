@@ -95,9 +95,9 @@
     text-transform: uppercase;
 }
 
-.header__button:hover .header__nav,
-.header__button:focus .header__nav,
-.header__button:active .header__nav {
+.header__button:hover +.header__nav,
+.header__button:focus +.header__nav,
+.header__button:active +.header__nav {
     display: block;
 }
 

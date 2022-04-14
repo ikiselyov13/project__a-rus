@@ -119,9 +119,9 @@ body {
   text-transform: uppercase;
 }
 
-.header__button:hover .header__nav,
-.header__button:focus .header__nav,
-.header__button:active .header__nav {
+.header__button:hover + .header__nav,
+.header__button:focus + .header__nav,
+.header__button:active + .header__nav {
   display: block;
 }
 
@@ -156,7 +156,7 @@ body {
   margin: 0 0 62px 0;
   width: 100%;
   min-height: 749px;
-  background-color: var(--light-pink);
+  background-color: #F1E4E6;
 }
 
 .brand__title-wrp {
@@ -198,7 +198,7 @@ body {
   box-sizing: border-box;
   width: 360px;
   min-height: 260px;
-  background-color: var(--sales-bkg-color);
+  background-color: #716769;
 }
 
 .sales__item--woman {
@@ -232,7 +232,7 @@ body {
   line-height: 19px;
   letter-spacing: 0em;
   text-align: center;
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .sales__title {
@@ -242,7 +242,7 @@ body {
   line-height: 29px;
   letter-spacing: 0em;
   text-align: center;
-  color: var(--dark-pink);
+  color: #F16D7F;
 }
 
 .catalog {
@@ -363,9 +363,9 @@ body {
   border: none;
 }
 
+/*В этом классе не работают изменения*/
 .catalog__button-browse:hover {
-  border: solid 1px;
-  border-color: #222222;
+  border: solid 1px #222222;
 }
 
 .catalog__button-text {
