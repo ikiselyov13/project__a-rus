@@ -1,0 +1,26 @@
+
+.nav-sub-item__title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: $dark-pink;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 24px 0 0 33px;
+    display: block;
+}
+
+.nav-sub-item__item {
+    margin: 12px 0 0 54px;
+}
+
+.nav-sub-item__item-link {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: $dark-grey;
+    text-decoration: none;
+}

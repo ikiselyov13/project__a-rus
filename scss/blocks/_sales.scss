@@ -1,0 +1,59 @@
+$white: #FFFFFF;
+
+.sales__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sales__item {
+    padding: 105px 0 105px 0;
+    box-sizing: border-box;
+    width: 360px;
+    min-height: 260px;
+    background-color: $sales-bkg-color;
+}
+
+.sales__item--woman {
+    background-image: url(../img/woman-dress.png.png);
+}
+
+.sales__item--man {
+    background-image: url(../img/man-suit.png.png);
+}
+
+.sales__item--kids {
+    background-image: url(../img/boy-glasses.png.png);
+}
+
+.sales__item--shoes {
+    background-image: url(../img/shoes.png.png);
+    width: 100%;
+    min-height: 180px;
+    margin: 30px 0 0 0;
+}
+
+.sales__link {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sales__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: $white;
+}
+
+.sales__title {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: $dark-pink;
+}

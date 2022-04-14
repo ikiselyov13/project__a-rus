@@ -1,0 +1,103 @@
+
+/*Исправить переменные!*/
+
+.header {
+    background-color: $black;
+    position: relative;
+}
+
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.header__logo-search {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    position: relative;
+}
+
+.header__glass {
+    background-color: $black;
+    border: none;
+}
+
+[type="search"] {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background: $black;
+    outline: 1px solid black;
+}
+
+.form {
+    position: relative;
+}
+
+[type="search"]:hover {
+    outline: 1px solid white;
+}
+
+.header-link:hover,
+.header-link:active,
+.header-link:focus {
+    cursor: pointer;
+    outline: 1px solid white;
+}
+
+.header__nav {
+    display: none;
+    position: absolute;
+    width: 230px;
+    height: 749px;
+    background: $white;
+    right: 0;
+    top: 100%;
+    padding: 16px 16px 0 0;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.header__nav-stripe {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__cross {
+    border: none;
+    background: $white;
+}
+
+.header__button {
+    border: none;
+    background-color: transparent;
+}
+
+.header__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: $black;
+    margin: 0 0 0 34px;
+    text-transform: uppercase;
+}
+
+.header__button:hover +.header__nav,
+.header__button:focus +.header__nav,
+.header__button:active +.header__nav {
+    display: block;
+}
+
