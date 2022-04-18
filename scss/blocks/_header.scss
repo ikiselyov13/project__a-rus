@@ -1,6 +1,4 @@
 
-/*Исправить переменные!*/
-
 .header {
     background-color: $black;
     position: relative;
@@ -17,6 +15,10 @@
     display: flex;
     justify-content: space-between;
     width: 150px;
+
+    @include mobile {
+        flex-direction: row-reverse;
+    }
 }
 
 .header__logo-search {
@@ -47,9 +49,9 @@
     outline: 1px solid white;
 }
 
-.header-link:hover,
-.header-link:active,
-.header-link:focus {
+.header__link:hover,
+.header__link:active,
+.header__link:focus {
     cursor: pointer;
     outline: 1px solid white;
 }
@@ -64,6 +66,10 @@
     top: 100%;
     padding: 16px 16px 0 0;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+
+    @include mobile {
+        /*box-shadow: none;*/
+    }
 }
 
 .nav-link:hover {
@@ -101,3 +107,8 @@
     display: block;
 }
 
+.header__link {
+    @include mobile {
+        display: none;
+    }
+}

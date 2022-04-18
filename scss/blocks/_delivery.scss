@@ -3,17 +3,33 @@
     width: 100%;
     min-height: 340px;
     background-color: $black;
+
+    @include tablet {
+        min-height: 610px;
+    }
 }
 
 .delivery__list {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    
+
+    @include tablet {
+        /*margin: 0 0 64px 0;*/
+        flex-direction: column;
+        padding: 0 0 64px 0;
+    }
 }
 
 .delivery__item {
     width: 360px;
     margin: 103px 0 0 0;
+
+    @include tablet {
+        margin: 0 auto;
+        padding: 48px 0 64px 0;
+    }
 }
 
 .delivery__link {

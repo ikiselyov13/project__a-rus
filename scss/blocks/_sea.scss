@@ -1,12 +1,30 @@
 
 .sea {
     min-height: 448px;
+    background: rgba(244, 244, 244, 0.7);
     background-image: url(../img/sea.png);
+
+    @include tablet {
+        min-height: 693px;
+        padding: 0 0 0 0;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-position-x: left;
+    }
+
+    @include mobile {
+        min-height: 550px;
+        
+    }
 }
 
 .sea__list {
     display: flex;
     justify-content: space-between;
+
+    @include tablet {
+        display: block;
+    }
 }
 
 .sea__item {
@@ -16,6 +34,11 @@
 .sea__smyle {
     padding: 87px 0 0 0;
     padding-bottom: 30px;
+
+   @include tablet {
+        margin: 0 auto;
+        padding: 48px 0 30px 0;
+    }
 }
 
 .sea__smyle-text {
@@ -26,6 +49,11 @@
     line-height: 24px;
     letter-spacing: 0em;
     color: $black;
+
+    @include tablet {
+        margin: 0 auto;
+        min-height: 90px;
+    }
 }
 
 .sea__subscribe-title {
@@ -37,6 +65,15 @@
     line-height: 38px;
     letter-spacing: 0em;
     color: $black;
+
+    @include tablet {
+        margin: 0 auto;
+        padding: 50px 0 0 0;
+    }
+
+    @include mobile {
+        width: 271px;
+    }
 }
 
 .sea__subscribe-text {
@@ -48,12 +85,30 @@
     letter-spacing: 0em;
     text-align: center;
     color: $black;
+
+    @include tablet {
+        margin: 0 auto;
+    }
+
+    @include mobile {
+        width: 271px;
+    }
 }
 
 .sea__subscribe-send {
     display: flex;
     margin: 32px 0 0 120px;
     height: 45px;
+
+    @include tablet {
+        margin: 27px 220px 220px 220px;
+    }
+
+    @include mobile {
+        margin: 0 auto;
+        justify-content: center;
+        padding: 22px 0 0 0;
+    }
 }
 
 .sea__subscribe-send-text:hover,
@@ -62,7 +117,7 @@
 }
 
 .sea__subscribe-send-text {
-    border-radius: 20px 0 0 20px;
+    border-radius: $radius 0 0 $radius;
     width: 200px;
     border: none;
     background-color: $middle-grey;
@@ -73,7 +128,7 @@
 }
 
 .sea__subscribe-send-button {
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 $radius $radius 0;
     background: $dark-pink;
     color: $white;
     width: 100px;
