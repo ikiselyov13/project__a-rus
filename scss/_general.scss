@@ -7,8 +7,16 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 71.3%;
     margin: 0 auto;
+
+    @include tablet {
+        width: 95.5%;
+    }
+
+    @include mobile {
+        width: 91.5%;
+    }
 }
 
 .visually-hidden {
@@ -24,7 +32,7 @@ body {
     margin: -1px;
 }
 
-@media (max-width: $desctop-width) {
+/*@media (max-width: $desctop-width) {
     .container {
         width: 734px;
     }
@@ -34,4 +42,4 @@ body {
     .container {
         width: 343px;
     }
-}
+}*/
