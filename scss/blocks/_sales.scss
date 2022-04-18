@@ -1,4 +1,3 @@
-$white: #FFFFFF;
 
 .sales__list {
     display: flex;
@@ -12,18 +11,40 @@ $white: #FFFFFF;
     width: 360px;
     min-height: 260px;
     background-color: $sales-bkg-color;
+
+    @include tablet {
+        width: 232px;
+        min-height: 167px;
+    }
+
+    @include mobile {
+        width: 343px;
+        /*min-height: 247px;*/
+    }
 }
 
 .sales__item--woman {
     background-image: url(../img/woman-dress.png.png);
+
+    @include mobile {
+        margin: 0 9px 32px 9px;
+    }
 }
 
 .sales__item--man {
     background-image: url(../img/man-suit.png.png);
+
+    @include mobile {
+        margin: 0 9px 32px 9px;
+    }
 }
 
 .sales__item--kids {
     background-image: url(../img/boy-glasses.png.png);
+
+    @include mobile {
+        margin: 0 9px 32px 9px;
+    }
 }
 
 .sales__item--shoes {
@@ -31,6 +52,17 @@ $white: #FFFFFF;
     width: 100%;
     min-height: 180px;
     margin: 30px 0 0 0;
+
+    @include tablet {
+        height: 116px;
+    }
+
+    @include mobile {
+        min-height: 111px;
+        margin: 0 9px 0 9px;
+        background-repeat: no-repeat;
+        padding: 30px 0 30px 0;
+    }
 }
 
 .sales__link {
