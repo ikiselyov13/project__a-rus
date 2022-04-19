@@ -187,6 +187,7 @@ body {
   width: 100%;
   min-height: 749px;
   background-color: #F1E4E6;
+  /*background-color: blue;*/
 }
 
 @media (max-width: 767px) {
@@ -296,6 +297,10 @@ body {
   }
 }
 
+.brand__img {
+  width: 50%;
+}
+
 @media (max-width: 767px) {
   .brand__img {
     width: 50%;
@@ -319,21 +324,21 @@ body {
 .sales__item {
   padding: 105px 0 105px 0;
   box-sizing: border-box;
-  width: 360px;
+  width: 31.6%;
   min-height: 260px;
   background-color: #716769;
 }
 
 @media (max-width: 767px) {
   .sales__item {
-    width: 232px;
+    width: 31.6%;
     min-height: 167px;
   }
 }
 
 @media (max-width: 375px) {
   .sales__item {
-    width: 343px;
+    width: 100%;
     /*min-height: 247px;*/
   }
 }

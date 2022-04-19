@@ -8,17 +8,17 @@
 .sales__item {
     padding: 105px 0 105px 0;
     box-sizing: border-box;
-    width: 360px;
+    width: 31.6%;
     min-height: 260px;
     background-color: $sales-bkg-color;
 
     @include tablet {
-        width: 232px;
+        width: 31.6%;
         min-height: 167px;
     }
 
     @include mobile {
-        width: 343px;
+        width: 100%;
         /*min-height: 247px;*/
     }
 }
