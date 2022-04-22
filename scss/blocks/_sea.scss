@@ -112,7 +112,11 @@
 }
 
 .sea__subscribe-send-text:hover,
-.sea__subscribe-send-button:hover {
+.sea__subscribe-send-button:hover,
+.sea__subscribe-send-text:focus,
+.sea__subscribe-send-button:focus,
+.sea__subscribe-send-text:active,
+.sea__subscribe-send-button:active {
     border: 3px solid $black;
 }
 

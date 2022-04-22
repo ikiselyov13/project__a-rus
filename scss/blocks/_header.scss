@@ -87,6 +87,13 @@
     background-color: transparent;
 }
 
+.header__button:hover,
+.header__button:active,
+.header__button:focus {
+    cursor: pointer;
+    outline: 1px solid white;
+}
+
 .header__title {
     font-size: 14px;
     font-weight: 700;
