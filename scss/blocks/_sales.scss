@@ -8,18 +8,24 @@
 .sales__item {
     padding: 105px 0 105px 0;
     box-sizing: border-box;
-    width: 31.6%;
+    width: 360px;
+    /*width: 31.6%;*/
     min-height: 260px;
     background-color: $sales-bkg-color;
+    background-position: center;
+
 
     @include tablet {
-        width: 31.6%;
+        width: 232px;
+        /*width: 31.6%;*/
         min-height: 167px;
+        padding: 58px 0 0 0;
+        background-size: cover;
     }
 
     @include mobile {
         width: 100%;
-        /*min-height: 247px;*/
+        min-height: 247px;
     }
 }
 
@@ -52,16 +58,33 @@
     width: 100%;
     min-height: 180px;
     margin: 30px 0 0 0;
+    
 
     @include tablet {
-        height: 116px;
+        min-height: 116px;
+        background-size: cover;
     }
 
     @include mobile {
         min-height: 111px;
         margin: 0 9px 0 9px;
         background-repeat: no-repeat;
-        padding: 30px 0 30px 0;
+        background-position: center;
+        /*padding: 30px 0 30px 0;*/
+    }
+}
+
+.sales__item--shoes-text {
+    padding: 65px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: $white;
+
+    @include tablet {
+        padding: 33px 0 0 0;
     }
 }
 
@@ -69,6 +92,7 @@
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
+    display: block;
 }
 
 .sales__text {

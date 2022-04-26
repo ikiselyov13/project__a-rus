@@ -75,12 +75,21 @@
     color: $white;
 }
 
-.catalog__item:hover .catalog__item-overlay {
+
+.catalog__item:hover .catalog__item-overlay,
+.catalog__item:focus .catalog__item-overlay,
+.catalog__item:active .catalog__item-overlay {
     display: block;
 }
 
 .catalog__item:hover .catalog__button {
     display: flex;
+}
+
+.catalog__button:hover,
+.catalog__button:focus,
+.catalog__button:active {
+    border: solid 3px $white;
 }
 
 .catalog__item-link {
@@ -123,9 +132,10 @@
     border: none;
 }
 
-/*В этом классе не работают изменения*/
-.catalog__button-browse:hover {
-    border: solid 1px $black;
+.catalog__button-browse:hover,
+.catalog__button-browse:focus,
+.catalog__button-browse:active {
+    border: solid 3px $black;
 }
 
 .catalog__button-text {
