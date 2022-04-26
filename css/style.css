@@ -908,4 +908,10 @@ body {
   height: 31px;
   background-color: #F16D7F;
 }
+
+.all-rights__icons-item:hover,
+.all-rights__icons-item:focus,
+.all-rights__icons-item:active {
+  outline: solid 3px #F16D7F;
+}
 /*# sourceMappingURL=style.css.map */

@@ -68,3 +68,10 @@
     height: 31px;
     background-color: $dark-pink;
 }
+
+.all-rights__icons-item:hover,
+.all-rights__icons-item:focus,
+.all-rights__icons-item:active
+ {
+    outline: solid 3px $dark-pink;
+}
