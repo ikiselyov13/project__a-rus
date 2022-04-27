@@ -25,6 +25,21 @@
     flex-wrap: wrap;
 }
 
+.catalog__cell {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+
+    @include tablet {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 16px;
+    }
+
+    @include mobile {
+        display: block;
+    }
+}
+
 .catalog__item {
     box-sizing: border-box;
     width: 360px;

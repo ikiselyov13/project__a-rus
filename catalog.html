@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container header__wrp">
+            <div class="header__logo-search">
+                <img class="header__logo" src="./img/logo.png.png" alt="logo">
+                <button class="header__glass" type="button">
+                    <img class="header__glass-image" src="./img/glass-ico.svg.svg" alt="glass">
+                </button>
+                <!--Вставка формы-->
+                <form class="form" action="#">
+                    <label class="header__search visually-hidden" for="search">поиск</label>
+                    <input type="search" placeholder="Поиск" id="search">
+                </form>
+            </div>
+            <ul class="header__list">
+                <li class="header__item">
+                    <button class="header__button">
+                        <img src="./img/burger-ico.svg" alt="burger-ico">
+                    </button>
+                    <!--Вставка меню навигации-->
+                    <nav class="header__nav">
+                        <div class="header__nav-stripe">
+                            <button class="header__cross" type="button">
+                                <img src="./img/cross.svg" alt="cross">
+                            </button>
+                        </div>
+                        <h2 class="header__title">menu</h2>
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item nav-sub-item">
+                                <a class="nav-sub-item__title nav-link" href="#">man</a>
+                                <ul class="nav-sub-item__list">
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Accessories</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Bags</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Denim</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">T-Shirts</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__nav-item nav-sub-item">
+                                <a class="nav-sub-item__title nav-link" href="#">woman</a>
+                                <ul class="nav-sub-item__list">
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Accessories</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Jackets & Coats</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Polos</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">T-Shirts</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Shirts</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__nav-item nav-sub-item">
+                                <a class="nav-sub-item__title nav-link" href="#">kids</a>
+                                <ul class="nav-sub-item__list">
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Accessories</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Jackets & Coats</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Polos</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">T-Shirts</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Shirts</a>
+                                    </li>
+                                    <li class="nav-sub-item__item">
+                                        <a class="nav-sub-item__item-link nav-link" href="#">Bags</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link"><img src="./img/person-ico.svg.svg" alt="person-ico"></a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link"><img src="./img/basket-ico.svg.svg" alt="basket-ico"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="catalog">
+            <div class="container">
+                <ul class="catalog__cell">
+                    <li class="catalog__item">
+                        <div class="img-wrp">
+                            <img class="catalog__image" src="img/clothes-1.jpg.jpg" alt="clothes-1">
+                        </div>
+                        <p class="catalog__item-title">ellery x m'o capsule</p>
+                        <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of
+                            cool Kym Ellery teams up with Moda
+                            Operandi.</p>
+                        <p class="catalog__item-price">$52.00</p>
+                    </li>
+                    <li class="catalog__item">
+                        <div class="img-wrp">
+                            <img class="catalog__image" src="img/clothes-1.jpg.jpg" alt="clothes-1">
+                        </div>
+                        <p class="catalog__item-title">ellery x m'o capsule</p>
+                        <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of
+                            cool Kym Ellery teams up with Moda
+                            Operandi.</p>
+                        <p class="catalog__item-price">$52.00</p>
+                    </li>
+                    <li class="catalog__item">
+                        <div class="img-wrp">
+                            <img class="catalog__image" src="img/clothes-1.jpg.jpg" alt="clothes-1">
+                        </div>
+                        <p class="catalog__item-title">ellery x m'o capsule</p>
+                        <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of
+                            cool Kym Ellery teams up with Moda
+                            Operandi.</p>
+                        <p class="catalog__item-price">$52.00</p>
+                    </li>
+                    <li class="catalog__item">
+                        <div class="img-wrp">
+                            <img class="catalog__image" src="img/clothes-1.jpg.jpg" alt="clothes-1">
+                        </div>
+                        <p class="catalog__item-title">ellery x m'o capsule</p>
+                        <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of
+                            cool Kym Ellery teams up with Moda
+                            Operandi.</p>
+                        <p class="catalog__item-price">$52.00</p>
+                    </li>
+                    <li class="catalog__item">
+                        <div class="img-wrp">
+                            <img class="catalog__image" src="img/clothes-1.jpg.jpg" alt="clothes-1">
+                        </div>
+                        <p class="catalog__item-title">ellery x m'o capsule</p>
+                        <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of
+                            cool Kym Ellery teams up with Moda
+                            Operandi.</p>
+                        <p class="catalog__item-price">$52.00</p>
+                    </li>
+                    <li class="catalog__item">
+                        <div class="img-wrp">
+                            <img class="catalog__image" src="img/clothes-1.jpg.jpg" alt="clothes-1">
+                        </div>
+                        <p class="catalog__item-title">ellery x m'o capsule</p>
+                        <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of
+                            cool Kym Ellery teams up with Moda
+                            Operandi.</p>
+                        <p class="catalog__item-price">$52.00</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="delivery">
+            <h2 class="visually-hidden">delivery</h2>
+            <div class="container">
+                <ul class="delivery__list">
+                    <li class="delivery__item">
+                        <img class="delivery__image" src="./img/car-ico.svg" alt="car-ico">
+                        <a class="delivery__link" href="#">
+                            <h3 class="delivery__item-title">Free Delivery</h3>
+                        </a>
+                        <p class="delivery__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                            with
+                            extensive models.</p>
+                    </li>
+                    <li class="delivery__item">
+                        <img class="delivery__image" src="./img/percent-ico.svg" alt="percent-ico">
+                        <a class="delivery__link" href="#">
+                            <h3 class="delivery__item-title">Sales & discounts</h3>
+                        </a>
+                        <p class="delivery__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                            with
+                            extensive models.</p>
+                    </li>
+                    <li class="delivery__item">
+                        <img class="delivery__image" src="./img/crown-ico.svg" alt="crown-ico">
+                        <a class="delivery__link" href="#">
+                            <h3 class="delivery__item-title">Quality assurance</h3>
+                        </a>
+                        <p class="delivery__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                            with
+                            extensive models.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="sea">
+            <h2 class="visually-hidden">sea</h2>
+            <ul class="sea__list">
+                <li class="sea__item">
+                    <img class="sea__smyle" src="./img/smile.png" alt="smile">
+                    <p class="sea__smyle-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                        condimentum“</p>
+                </li>
+                <li class="sea__item">
+                    <h3 class="sea__subscribe-title">subscribe</h3>
+                    <p class="sea__subscribe-text">for our newletter and promotion</p>
+                    <!--Форма-->
+                    <form class="sea__subscribe-send" action="#">
+                        <label for="email" class="visually-hidden">email</label>
+                        <input class="sea__subscribe-send-text" type="email" id="email" placeholder="     Enter Your Email">
+                        <button class="sea__subscribe-send-button" type="submit">Submit</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="all-rights">
+            <div class="container">
+                <ul class="all-rights__list">
+                    <li class="all-rights__item">
+                        <p class="all-rights__text">© 2021 Brand All Rights Reserved.</p>
+                    </li>
+                    <li class="all-rights__item">
+                        <ul class="all-rights__icons">
+                            <li class="all-rights__icons-item">
+                                <a class="all-rights__link" href="#">
+                                    <img class="all-rights__image" src="./img/f-ico.svg" alt="f-ico">
+                                </a>
+                            </li>
+                            <li class="all-rights__icons-item">
+                                <a class="all-rights__link" href="#">
+                                    <img class="all-rights__image all-rights__image--camera" src="./img/camera-ico.svg"
+                                        alt="camera-ico">
+                                </a>
+                            </li>
+                            <li class="all-rights__icons-item">
+                                <a class="all-rights__link" href="#">
+                                    <img class="all-rights__image" src="./img/p-ico.svg" alt="p-ico">
+                                </a>
+                            </li>
+                            <li class="all-rights__icons-item">
+                                <a class="all-rights__link" href="#">
+                                    <img class="all-rights__image" src="./img/bird-ico.svg" alt="bird-ico">
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
