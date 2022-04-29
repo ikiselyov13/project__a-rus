@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +17,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container header__wrp">
+        <div class="container header__wrp"> <!--container-->
             <div class="header__logo-search">
                 <img class="header__logo" src="./img/logo.png.png" alt="logo">
                 <button class="header__glass" type="button">
@@ -116,6 +118,16 @@
     <main>
         <section class="catalog">
             <div class="container">
+                <section class="filters">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>size</option>
+                        <option value="1">xs</option>
+                        <option value="2">s</option>
+                        <option value="3">m</option>
+                        <option value="4">l</option>
+                    </select>
+                </section>
+                <h2 class="visually-hidden">Fetured Items</h2>
                 <ul class="catalog__cell">
                     <li class="catalog__item">
                         <div class="img-wrp">
@@ -188,7 +200,7 @@
         </section>
         <section class="delivery">
             <h2 class="visually-hidden">delivery</h2>
-            <div class="container">
+            <div class=""><!--container-->
                 <ul class="delivery__list">
                     <li class="delivery__item">
                         <img class="delivery__image" src="./img/car-ico.svg" alt="car-ico">
@@ -243,7 +255,7 @@
             </ul>
         </div>
         <div class="all-rights">
-            <div class="container">
+            <div class="container"><!--container-->
                 <ul class="all-rights__list">
                     <li class="all-rights__item">
                         <p class="all-rights__text">© 2021 Brand All Rights Reserved.</p>
@@ -277,6 +289,5 @@
             </div>
         </div>
     </footer>
-    
 </body>
 </html>
