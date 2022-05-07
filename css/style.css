@@ -124,6 +124,7 @@ body {
   top: 100%;
   padding: 16px 16px 0 0;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
 .nav-link:hover {
@@ -487,6 +488,25 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.catalog__cell {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .catalog__cell {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 16px;
+  }
+}
+
+@media (max-width: 376px) {
+  .catalog__cell {
+    display: block;
+  }
 }
 
 .catalog__item {
